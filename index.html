@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<head>
+	<title>Esercizio</title>
+</head>
+
+<body>
+
+  <p style="font-size: 40%;">Prima del codice js:</p>
+  <h2 style="text-align: center;color: red;"> Questo è un esempio di sito con javascript!</h2>
+  <script>
+  	"use strict";
+  	let message="benvenuto nella mia pagina";
+  	const myBday = '27/01/2003';
+  	const color_red= "#F00";
+  	const color_blue="#00F";
+  	alert("ciao");
+  	let user = prompt("Come ti chiami?");
+  	let surname= prompt("qual è il tuo cognome?")
+  	alert(`ciao ${user} ${surname} benvenut* nel mio siti`);
+  	let age = prompt('Quanti anni hai?');
+	let ageCheck = confirm("Sei maggiorenne?");
+	alert(ageCheck);
+	let userCheck= confirm(`sei veramente ${user} ${surname}?`);
+	alert(userCheck);
+	alert(`l'anno prossimo avrai ${++age}!`);
+  </script>
+  <p>Dopo il codice js</p>
+  <p style="color: blue;margin-top: 25px;">Questa parte è stata scritta dopo il codice js.</p>
+
+</body>
+
+</html>
